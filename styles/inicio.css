@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    margin-top: 20px;
+    background-image: url(../images/back.png);
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+}
+
+/* Adicionando algumas classes específicas para customizações */
+.header-container h1 {
+    font-size: 2em;
+}
+
+.bg-dark {
+    background-color: rgb(230, 81, 106) !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    img
+}
+
+.card-title {
+    color: rgb(230, 81, 106);
+}
+
+.card-text {
+    color: rgb(230, 81, 106);
+}
+
+.btn-primary {
+    background-color: rgb(238, 119, 139);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: rgb(230, 81, 106);
+}
