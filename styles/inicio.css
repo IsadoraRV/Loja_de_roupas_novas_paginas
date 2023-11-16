@@ -1,26 +1,34 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 #pagina {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../images/back.png);
+   
+   
 }
 
 header {
-    padding: 20px;
+    height: auto;
 }
 
 main {
     margin-top: 20px;
-    background-image: url(../images/back.png);
+    background-color: antiquewhite;
+
+   
 }
 
 .card {
     width: 18rem;
     margin-bottom: 20px;
+    
+    
 }
 
 /* Adicionando algumas classes específicas para customizações */
@@ -43,7 +51,7 @@ main {
 .card-img-top {
     max-height: 200px;
     object-fit: cover;
-    img
+    
 }
 
 .card-title {
